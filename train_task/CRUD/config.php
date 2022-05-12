@@ -3,7 +3,7 @@
   define('DB_USERNAME', 'u0154084_1989');
   define('DB_PASSWORD', 'pEn3/QoB');
   define('DB_NAME', 'u0154084_1989');
-  define('TBL_NAME','users');
+  define('TBL_NAME','items');
 
   $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
   $table = mysqli_select_db_table(TBL_NAME);
